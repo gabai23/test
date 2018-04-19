@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>フォームの作り方</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <!--ボディはここから！！-->
+    <body>
+   <h1>お問い合わせフォーム</h1>
+    <!--本チャン-->  
+   <form methed="XXX" action="XXX">
+     
+       
+       <!--名前-->
+       <div class="name">
+       <p>name</p>
+        <p><input type="text" name ="XXX" size=35 class="text"></p>
+       </div>
+      
+       
+       <!--めるアド-->
+       <div class="mail">
+       <p>メールアドレス</p>
+       <p><input type="text" name="XXX" size=35></p>
+       </div>
+        
+       
+       <!--年齢-->
+       <div class="age">
+       <p>年齢</p> 
+        <p> <select class="dropdown" name ="XXX">
+           <option value="XXX"> 選択してください</option><script>
+            for(var i =18;i <=65; i++){
+               document.write("<option>"+i+"歳</option>" );
+               }
+            </script>
+           </select>
+        </p>
+       </div>
+      
+       
+       <!--コメント欄-->
+       <div class ="comment">
+       <p>コメント</p> 
+           <br>
+           <textarea name ="XXX" rows="5" cols="40"></textarea>
+       </div>
+       <!--送信ボタン-->
+       <div class="souisnbottom">
+       <input type="submit" value="送信する" class="submit"></div>
+      </form>
+      
+      
+      
+      
+  </body>
+</html>

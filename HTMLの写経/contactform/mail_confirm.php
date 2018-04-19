@@ -16,22 +16,22 @@
             
             <p>名前
                 <br>
-            <?php echo $_POST['name']; ?>
+            <?php echo $_POST['name'];?>
             </p>
             
             <p>メールアドレス
             <br>
-            <?php echo $_POST['mail']; ?>
+            <?php echo $_POST['mail'];?>
             </p>
             
             <p>年齢
             <br>
-            <?php echo $_POST['age']; ?>
+            <?php echo $_POST['age'];?>
             </p>
             
             <p>コメント
                 <br>
-            <?php echo $_POST['comments']; ?>
+            <?php echo $_POST['comments'];?>
             </p>
             
             <form action="index.html">
