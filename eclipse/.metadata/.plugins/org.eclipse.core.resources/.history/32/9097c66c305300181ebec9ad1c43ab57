@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.internousdev.webproj.action;
+
+/**
+ * @author internousdev
+ *
+ */
+public class WelcomeAction {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;sql&apos; to &apos;Webproj4/src/com.internousdev.webproj4.action&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;Webproj4&apos;&#x0D;&#x0A;- 宛先要素: &apos;Webproj4/src/com.internousdev.webproj4.action&apos;&#x0D;&#x0A;- オリジナル要素: &apos;sql&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="フォルダーを移動" destination="/src&lt;com.internousdev.webproj4.action" element1="sql" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1526005841858" units="0" version="1.0"/>
+</session>

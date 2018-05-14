@@ -1,20 +1,39 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="s" uri="/struts-tags" %>
-<!DOCTYPE html>
+<!DOCTYPE html >
 
+<!--最初アクセスのときに最初に表示される画面ファイルのjsp!  -->
 <html>
 <head>
-<meta  charset="UTF-8">
+<meta charset="UTF-8">
 <title>INDEX</title>
 </head>
 <body>
 	<form action ="HelloStrutsAction">
-		<s:submit value = "HelloStruts" />
+	<s:submit value="HelloStruts"/>
 	</form>
-<!-- 新規追加！ -->
-	<form action ="WelcomeAction">
-	<s:submit value ="Welcome"/>
+
+	<form action="WelcomeAction">
+	<s:submit value="Welcome!!"/>
 	</form>
-</body>
+
+	<s:form action="InquiryAction">
+	<s:submit value ="お問い合わせ"/>
+	</s:form>
+
+	<br>
+
+	GET 通信
+	<s:form method="get" action="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+	</s:form>
+	POST 通信
+	<s:form method="post" action="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+</s:form>
 </html>

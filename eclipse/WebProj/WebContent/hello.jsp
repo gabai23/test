@@ -4,11 +4,10 @@
 <!DOCTYPE html >
 <html>
 <head>
-<meta  charset="UTF-8">
-<title>HelloStruts</title>
+<meta charset="UTF-8">
+<title>Hello!!Struts!</title>
 </head>
 <body>
-
-<h1>HelloStruts2!!</h1>
+<h1>Hello!Struts2!</h1>
 </body>
 </html>

@@ -1,5 +1,0 @@
-package com.inernousdev.login.dto;
-
-public class LoginDTO {
-
-}
