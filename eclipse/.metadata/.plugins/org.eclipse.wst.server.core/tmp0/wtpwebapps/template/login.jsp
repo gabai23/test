@@ -69,7 +69,7 @@ margin: 0 auto;
 
 	<div >
 		<h3>商品を購入する際にはログインをお願いします。</h3>
-		<s:form action ="LoginActio">
+		<s:form action ="LoginAction">
 			<s:textfield name="loginUserId"/>
 			<s:password name="loginPassword"/>
 			<s:submit value="ログイン"/>
