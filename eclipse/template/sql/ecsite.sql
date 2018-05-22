@@ -1,9 +1,9 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if  exists ecsite;
+drop database if  exists ecsite55;
 
-create database if not exists exsite;
-
+create database if not exists ecsite55;
+use ecsite55;
 drop table if exists login_user_transaction;
 
 create table login_user_transaction(
@@ -15,12 +15,13 @@ insert_date datetime,
 updated_date datetime
 );
 
-drop table if exists item_info_transaction(
+drop table if exists item_info_transaction;
+create table item_info_transaction(
 id int not null primary key auto_increment,
 item_name varchar(30),
 item_price int,
 item_stock int,
-insert_data datetime,
+insert_date datetime,
 update_date datetime
 );
 
