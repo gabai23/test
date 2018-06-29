@@ -12,12 +12,26 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\nakadate\ecsite-nakadate"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\regalo"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\vague"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\miami\miamiburger"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\Regalo"/>
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\test\test\チーム制作\sample\sample-web-master"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-onuma\test\eclipse\HelloServlet"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
 	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="278" key="DIALOG_X_ORIGIN"/>
+		<item value="202" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

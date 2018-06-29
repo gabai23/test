@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+		body {
+			background-image: url(../images/board.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+			background-size: 100% auto;
+		}
+		.main{
+			padding-top:5%;
+		}
+		.main h1{
+			width:60%;
+			margin:0 auto;
+			margin-top:50px;
+			text-align: center;
+		/* 	影をつけるボックスのプロパティです */
+			border-left:1px solid black;
+			border-bottom:1px solid black;
+			border-radius:10px;
+			background-color:rgba(255,255,255,0.5);
+			box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+		}
+		.inner{
+			margin:5% 20% 5% 20%;
+			float:left;
+			width: 60%;
+			height: 50%;
+		/* 	影をつけるボックスのプロパティです */
+			border-left:1px solid black;
+			border-bottom:1px solid black;
+			border-radius:10px;
+			background-color:rgba(255,255,255,0.5);
+			box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+		}
+		.product_info{
+			text-align:center;
+
+		}
+		.character{
+			padding:3%;
+		}
+		.character b{
+			padding-right:1%;
+		}
+		.button{
+			width:40%;
+			margin:0 auto;
+			padding:2%;
+		}
+		.button input{
+			width:100%;
+		}

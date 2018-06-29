@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+		body {
+			background-image: url(../images/board.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+			background-size: 100% auto;
+		}
+		.inner{
+			margin:5% 15% 5% 15%;
+			float:left;
+			width: 70%;
+			height: 50%;
+		/* 	影をつけるボックスのプロパティです */
+			border-left:1px solid black;
+			border-bottom:1px solid black;
+			border-radius:10px;
+			background-color:rgba(255,255,255,0.5);
+			box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+		}
+		.main{
+			padding-top:5%;
+		}
+		.main h1{
+			width:60%;
+			margin:0 auto;
+			margin-top:50px;
+			text-align: center;
+		/* 	影をつけるボックスのプロパティです */
+			border-left:1px solid black;
+			border-bottom:1px solid black;
+			border-radius:10px;
+			background-color:rgba(255,255,255,0.5);
+			box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+		}
+		.product_info{
+			float:left;
+			width:36%;
+			margin:6%;
+		}
+		.character{
+			padding:3%;
+		}
+		.character b{
+			padding-right:1%;
+		}
+		.file{
+			float:left;
+			width:38%;
+			margin:6%;
+		}
+		.file img{
+			margin-left:20%;
+		}
+		.clear{
+		clear:both;
+		}

@@ -1,0 +1,217 @@
+header {
+	min-width:900px;
+	font-family: メイリオ;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: black url(../images/logoheader.jpg) no-repeat center scroll;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+header ul.logo li {
+	float: left;
+	list-style: none;
+	width: 150px;
+	height: 90px;
+	position: relative;
+	border-right: 1px white dashed;
+	texe-align:center;
+	overflow: hidden;
+}
+
+header ul.menu li {
+	float: left;
+	list-style: none;
+	width: 110px;
+	height: 90px;
+	position: relative;
+	border-right: 1px #333 dashed;
+	overflow: hidden;
+}
+
+/*ボタン*/
+header ul.menu li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	padding-top: 5px;
+}
+
+header ul.menu li a::before, ul.menu li a::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+
+header ul.menu li a, header ul.menu li a::before, header ul.menu li a::after
+	{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+header ul.menu li a {
+	color: #fff;
+	text-align: center;
+}
+
+header ul.menu .long a:hover {
+	width: 100%;
+	height: 100%;
+	border-bottom: black;
+	border-top: black;
+	color: #59b1eb;
+	width: 100%;
+	background: black url(../images/shb.jpg) no-repeat center scroll;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+/*画像指定*/
+header ul.menu li #text:hover {
+	width: 100%;
+	height: 100%;
+	background: black url(../images/shb.jpg) no-repeat center scroll;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+header ul.menu li a::before, header ul.menu li a::after {
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: cyan;
+}
+
+header ul.menu li a::before {
+	right: 0;
+}
+
+header ul.menu li a::after {
+	left: 0;
+}
+
+header ul.menu li a:hover::before, header ul.menu li a:hover::after {
+	width: 0;
+	background-color: #59b1eb;
+}
+
+/*ここまで*/
+header .searchBox {
+	color: white;
+	clear: left;
+}
+
+#kensaku {
+	font-weight: bold;
+	position: relative;
+	top: 50p;
+}
+
+.menu {
+	margin: auto;
+	position: relative;
+}
+
+header .menu li img {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+	header ul.menu .long {
+		float: left;
+		list-style: none;
+		width: 50px;
+		height: 90px;
+		position: relative;
+		border-right: 1px #333 dashed;
+		overflow: hidden;
+	}
+	header ul.menu .long a {
+		background-image: black;
+	}
+
+	/*ボタン*/
+	header ul.menu li a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-indent: 5px;
+		font-size: 15px;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: pointer;
+		outline: none;
+		padding-top: 5px;
+	}
+	header ul.menu li a::before, ul.menu li a::after {
+		position: absolute;
+		z-index: -1;
+		display: block;
+		content: '';
+	}
+	header ul.menu li a, header ul.menu li a::before, header ul.menu li a::after
+		{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .3s;
+		transition: all .3s;
+	}
+	header ul.menu li a {
+		display: none background-color: black;
+		border: 2px solid #333;
+		color: none;
+	}
+	header ul.menu .long a:hover {
+		background: black url(../images/shb.jpg) no-repeat center scroll;
+		-moz-background-size : contain;
+		background-size : contain;
+		width: 100%;
+		height: 100%;
+		border-bottom: black;
+		border-top: black;
+		color: #59b1eb;
+		-moz-background-size: contain;
+		background-size: contain;
+	}
+	header ul.menu li a::before, header ul.menu li a::after {
+		top: 0;
+		width: 50%;
+		height: 100%;
+		background-color: cyan;
+	}
+	header ul.menu li a::before {
+		right: 0;
+	}
+	header ul.menu li a::after {
+		left: 0;
+	}
+	header ul.menu li a:hover::before, header ul.menu li a:hover::after {
+		width: 0;
+		background-color: #59b1eb;
+	}
+
+	/*ここまで*/
+	header ul li.logo {
+		clear: left;
+		float: left;
+		height:
+	}
+	header ul li.itemSearch {
+		float: right;
+		color: red;
+	}
+}

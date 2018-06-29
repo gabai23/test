@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/* ログイン認証画面 ------------------------------------*/
+
+body{
+	background-image:url(../images/board.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-size: 100% auto;
+}
+
+.main{
+	width:90%;
+	margin:0 auto;
+	margin-top:100px;
+	text-align: center;
+}
+
+.inner {
+	margin:10px 5% ;
+	float:left;
+	width: 90%;
+	height:280px;
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.5);
+/*------影-----*/
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+.main h1{
+	width:90%;
+	margin:0 auto;
+	margin-top:50px;
+	text-align: center;
+/* 	影をつけるボックスのプロパティです */
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+#login{
+	margin-top:20px;
+	text-align:center;
+}
+
+input#form{
+	width:155px;
+	height:26px;
+	display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: black;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+input#submit_button{
+	width:180px;
+	height:35px;
+	display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: black;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+input#submit_button:hover{
+	background: #67c5ff;
+    color: white;
+    height:35px;
+}
+
+
+#login span{
+	font-size:17px;
+}
+
+#login a:link{
+	color:black;
+}
+
+#login a:visited{
+	color:black;
+}
+
+#login a:hover{
+	color:black;
+}
+
+span.tooltip{
+	line-height:1.5;
+	color:red;
+	width:200px;
+	background:white;
+	border:2px solid red;
+	padding:1em;
+	font-size:small;
+}
+.box1{
+	float:left;
+	width:25%;
+	height:220px;
+	margin:40px 0 0 5%;
+	box-sizing:border-box;
+}
+
+.box2{
+	float:left;
+	text-align:left;
+	width:25%;
+	height:220px;
+	clear:right;
+	padding-top:25px;
+	margin:40px 0 30px 0;
+	box-sizing:border-box;
+}
+
+.box2 .errorid{
+	width:100%;
+	height:25px;
+	margin-bottom:12px;
+}
+
+.box2 .errorpass{
+	width:100%;
+	height:25px;
+}
+
+
+/* 新規登録、ユーザー設定 */
+
+.box3{
+	float:left;
+	width:30%;
+	height:220px;
+	color:white;
+	clear:right;
+	padding-top:25px;
+	margin:40px 5% 30px 5%;
+	box-sizing:border-box;
+
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-radius:3px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+.box3 a{
+	text-decoration: none;
+	font-size:16px;
+}
+
+.box3 a:link{color:#ddd;}
+.box3 a:visited{color:#ddd;}
+.box3 a:hover{color:#ddd;}

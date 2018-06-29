@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+.UC-header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+body {
+	background-image: url(../images/board.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% auto;
+}
+#titleBox{
+	text-align: center;
+	margin: 60px 10%;
+	float: left;
+	width: 80%;
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.5);
+	/*------影-----*/
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.inner {
+	margin: 100px auto;
+	padding: 20px;
+	width: 80%;
+	height: 50%;
+	box-sizing: border-box;
+	/* 	影をつけるボックスのプロパティです */
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.4);
+	text-align:center;
+	overflow:hidden;
+}
+.if-test {
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	overflow: scroll;
+	position: relative;
+	left: 40%;
+	top: 5px;
+}
+table {
+	margin:0 auto;
+ }
+
+ .submitBtn {
+	display: block;
+	width: 300px;
+	font-size: 12pt;
+	text-align: center;
+	cursor: pointer;
+	padding: 12px 12px;
+	background: #6BEAFF;
+	color: #ffffff;
+	line-height: 0.5em;
+	transition: .3s;
+	box-shadow: 6px 6px 3px #666666;
+	border: 2px solid #6BEAFF;
+}
+
+.submitBtn:hover {
+	box-shadow: none;
+	color: #6BEAFF;
+	background: #ffffff;
+}
+/*エラー用--------------*/
+span.tooltip{
+	line-height:1.5;
+	color:red;
+	width:200px;
+	background:white;
+	border:2px solid red;
+	padding:1em;
+	font-size:small;
+}
+.error{
+	color:red;
+}
+span{
+color: red;
+}
+/*------------------------*/

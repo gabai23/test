@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="com.inernousdev.webproj55.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.inernousdev.webproj55.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5555.util.DBConnector"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5555.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5555.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dao.LoginDAO"/>
@@ -48,10 +47,11 @@
 <fullyQualifiedTypeName name="com.internousdev.ecsite.util.DateUtil"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

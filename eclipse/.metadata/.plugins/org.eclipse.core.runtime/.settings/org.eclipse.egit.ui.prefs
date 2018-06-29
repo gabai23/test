@@ -1,3 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>\u572D\u3000LoginDTO\u3000</message>\r\n<message>\u572D\u3000Action\u306E\u8FFD\u52A0\uFF12\u3064</message>\r\n<message>LoginAction LogoutAction GoHomeAction&amp; login.jsp</message>\r\n</messages>
 eclipse.preferences.version=1
 show_git_prefix_warning=false
 show_home_drive_warning=false

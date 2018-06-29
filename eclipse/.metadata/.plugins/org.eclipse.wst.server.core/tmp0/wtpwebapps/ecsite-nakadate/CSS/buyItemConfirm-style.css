@@ -1,0 +1,169 @@
+
+@CHARSET "UTF-8";
+
+
+	/* ========TAG LAYOUT======== */
+
+		* {
+			font-family:'Hiragino Kaku Gothic Pro W3','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+			text-decoration:none;
+		}
+
+		body {
+			margin:0;
+			padding:0;
+			line-height:1.6;
+			letter-spacing:1px;
+			font-family:Verdane,Helvetica,sans-serif;
+			font-size:12px;
+			color:#333;
+			background:#fff;
+		}
+
+		table {
+			text-align:center;
+			margin:0 auto;
+		}
+
+	/* ========ID LAYOUT======== */
+		#top {
+			width:780px;
+			margin:30px auto;
+			border:1px solid #333;
+		}
+
+		#main {
+			width:100%;
+			height:auto;
+			text-align:center;
+		}
+
+		.destinationContainer {
+			width:100%;
+			height:auto;
+			float:left;
+			/* background:pink; */
+			margin:0 auto;
+		}
+
+		.box {
+			display:block;
+			border:1px solid #333;
+			border-radius:4px;
+			width:20%;
+			/*margin-left:10%;*/
+			/* padding:0,5%,0,5%; */
+			box-sizing:border-box;
+			text-align:left;
+			float:left;
+		}
+
+		.box2 {
+			clear:left;
+			width:100%;
+		}
+
+		#leftContainer {
+			width:70%;
+			height:auto;
+			box-sizing:border-box;
+			background:pink;
+			float:left;
+		}
+
+		#rightContainer {
+			width:30%;
+			height:auto;
+			box-sizing:border-box;
+			float:left;
+			background:grey;
+		}
+
+		#itemDetail {
+			position: relative;
+			width: 100%;  /* 1列あたりのitem表示個数変えたい場合はここを変える */
+			height: 80px;
+			margin-bottom:50px;
+			box-sizing: border-box;
+			background-color:lightblue;
+		}
+
+		.imageContainer {
+			position:relative;
+			float:left;
+			width: 20%;
+			height: 100%;
+			background-color:gray;
+		}
+
+		.name{
+			float:left;
+			width:40%;
+			font-size:18px;
+			vertical-align:center;
+		}
+
+		.price {
+			float:left;
+			width:20%;
+		}
+
+		.price:hover {
+			color:#BA2C25;
+		}
+
+		.yen {
+			color:#BA2C25;
+		}
+
+		.count {
+			float:left;
+			width:20%;
+		}
+
+		.totalPrice {
+			float:left;
+		}
+
+		.kakaku {
+			color:#333;
+		}
+
+		#image {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+
+		    max-width:100%;
+		    max-height:100%;
+		}
+
+		.button {
+			float:left;
+		}
+
+		/* for modern brouser */
+		.clearfix:after {
+		  content: ".";
+		  display: block;
+		  clear: both;
+		  height: 0;
+		  visibility: hidden;
+		}
+		/* IE7,MacIE5 */
+		.clearfix {
+		  display: inline-block;
+		}
+		/* WinIE6 below, Exclude MacIE5 \*/
+		* html .clearfix {
+		  height: 1%;
+		}
+		.clearfix {
+		  display: block;
+		}
+		/**/

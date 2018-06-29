@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+.titleBox{
+	margin:200px 20% 30px 20%;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.4);
+	padding:10px;
+	color:red;
+}
+
+.main {
+	margin: 30px 20% 30px 20%;
+	width: 60%;
+	padding: 100px 0 100px 0;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: -10px 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+

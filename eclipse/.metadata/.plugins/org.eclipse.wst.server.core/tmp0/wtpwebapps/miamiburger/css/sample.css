@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+以下の内容は、myPage.jspに適用しているcssです。
+下記の中にある、影をつけるボックスのプロパティを参考にボックスを作成してください。
+実物を確認する場合は、myPage.jspを参考にしてください。
+※このcssファイル自体はどのjspにも接続していません。
+
+
+body {
+	background-image: url(./images/board.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% auto;
+}
+.inner{
+	margin:5% 20% 5% 20%;
+	float:left;
+	width: 60%;
+	height: 50%;
+/* 	影をつけるボックスのプロパティです */
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+}
+.main{
+	padding-top:2%;
+}
+.main h1{
+	width:60%;
+	margin:0 auto;
+	margin-top:50px;
+	text-align: center;
+/* 	影をつけるボックスのプロパティです */
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow:-10px 10px 10px 5px rgba(0,0,0,0.4);
+}
+.user_info{
+	margin:10%;
+}
+.user_info p{
+	font-size:20px;
+	padding-bottom:3%;
+}
+.character{
+	padding:3%;
+}
+.character b{
+	padding-right:1%;
+}
+.button{
+	margin:10%;
+}
+.button input{
+	margin:3%;
+}

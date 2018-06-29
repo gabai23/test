@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+body {
+	min-width:900px;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/wbtile.jpg);
+}
+
+img {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.neonbox {
+	z-index: 2;
+	min-width:900px;
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.layer {
+	z-index: 1;
+}
+
+.bg1 {
+	width: 100%;
+	margin-top: 92px;
+	margin-bottom: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg3 {
+	width: 100%;
+	margin-top: -1px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* スライドショー */
+.slideframe {
+	width: 70%;
+	height: 450px;
+	margin: auto;
+}

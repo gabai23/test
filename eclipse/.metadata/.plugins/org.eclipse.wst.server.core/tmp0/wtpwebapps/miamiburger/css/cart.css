@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image: url(../images/board.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% auto;
+}
+.main{
+	margin-top: 10%;
+	width: 100%;
+}
+.main h1,h3{
+	text-align:center;
+}
+.inner{
+	width: 90%;
+	height:50%;
+	margin:0 auto;
+	border-radius: 2px;
+}
+.cart_info{
+	width:85%;
+/* 	height:%; */
+	margin:0 auto;
+	text-align:left;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.4);
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	padding: 1% 1% 1% 1%;
+}
+.cart_info img{
+	float:left;
+	width: 15%;
+	height: 15%;
+	border-radius: 20px;
+}
+.text_box{
+	float:left;
+	width:40%;
+	height:40%;
+}
+
+.clear{
+	clear:both;
+}
+.delete {
+	display: block;
+	width: 200px;
+	font-size: 14pt;
+	text-align: center;
+	cursor: pointer;
+	padding: 8px 8px;
+	background: #6BEAFF;
+	color: #ffffff;
+	line-height: 0.5em;
+	transition: .3s;
+	box-shadow: 6px 6px 3px #666666;
+	border: 2px solid #6BEAFF;
+	border-radius: 20px;
+}
+.delete:hover {
+	box-shadow: none;
+	color: #6BEAFF;
+	background: #ffffff;
+}
+.button{
+	float:right;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.p {
+	display: block;
+	width: 350px;
+	font-size: 18pt;
+	text-align: center;
+	cursor: pointer;
+	padding: 12px 12px;
+	background: #6BEAFF;
+	color: #ffffff;
+	line-height: 0.5em;
+	transition: .3s;
+	box-shadow: 6px 6px 3px #666666;
+	border: 2px solid #6BEAFF;
+}
+
+.p:hover {
+	box-shadow: none;
+	color: #6BEAFF;
+	background: #ffffff;
+}
+#AddressSelectAction{
+	width:100%;
+	text-align: center;
+}
+#AddressSelectAction .wwFormTable{
+	display:inline;
+}
+#LoginAction{
+	width:100%;
+	text-align: center;
+}
+#LoginAction .wwFormTable{
+	display:inline;
+
+
+}
+
+.text{
+	width:85%;
+	margin:0 auto;
+	text-align:center;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.4);
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	padding: 1% 1% 1% 1%;
+}
+
+.text .error{
+	color:red;
+	height:20px;
+}
+
+.cart_info img {
+	margin: 20px 10px 0px 10px;
+}
+#CartDeleteAction .wwFormTable{
+	margin:10px 0px 10px 80%;
+}

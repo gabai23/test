@@ -1,0 +1,177 @@
+
+/* -------------------- productInfo、ProductInfoDescription ともに使用されるCSS -------------------- */
+
+/* メイン系（大枠）ボックス */
+
+body{
+	background-image:url(../images/board.jpg);
+	min-width:900px;
+}
+
+.header{
+
+	position: 0;
+    position: fixed;
+	width: 100%;
+	height: 50px;
+	top:0;
+	border: 1px solid green;
+	background: rgba(255, 255, 255, 0.5);
+
+}
+
+.inner {
+	background-image:url(../images/menutile.jpg);
+	background-repeat:repeat;
+	margin:110px 10% 10px 10% ;
+	float:left;
+	width: 80%;
+	border: 1px solid #ddd;
+	overflow:hidden;
+}
+
+
+
+/* 商品一覧、製品リスト全体を囲むボックス */
+.PI-productcontainer {
+	float: left;
+	width: 100%;
+	margin-top:10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* 1商品を囲むボックス */
+.PI-productlist_container {
+	float: left;
+	width: 33.3%;
+	height: 320px;
+	padding: 3%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/* 1商品の背景色などの指定 */
+.PI-list {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+/* 1商品の画像サイズの指定（可変） */
+.PI-productlist_container .PI-list img {
+
+	height: 60%;
+	border: 1px solid #bbb;
+}
+
+/* 次へ、前へボタンの表示位置の指定 */
+.PI-pagingbox {
+	clear: both;
+	width: 20%;
+	margin: 10px auto;
+	text-align: center;
+	width: 0%;
+}
+
+.PI-list a{
+	text-decoration: none;
+}
+
+.PI-list a:link { color: black; }
+.PI-list a:visited { color: black; }
+.PI-list a:hover { color: black; }
+.PI-list a:active { color: black; }
+
+
+/* --------------------------- productInfoDescriptionでのみ使用されるCSS ---------------------------  */
+
+
+.PI-descriptionbox{
+	float:left;
+	width:50%;
+	padding:5%;
+	text-align:left;
+	box-sizing: border-box;
+	overflow:visible;
+}
+
+.inner h1{
+	clear:left;
+	text-align:center;
+	width:80%;
+	margin:20px auto 0 auto;
+	border-bottom:3px dotted;
+}
+
+
+.inner h2{
+	clear:left;
+	text-align:center;
+	width:80%;
+	margin:20px auto 0 auto;
+	border-bottom:3px dotted;
+}
+
+
+.PI-imagebox{
+	float:right;
+	text-align:center;
+	width:50%;
+	padding:5%;
+	box-sizing: border-box;
+}
+
+
+.PI-imagebox img {
+    max-width: 100%;
+    margin:0px;
+    border: 1px solid #ddd;
+}
+
+.PI-descriptionbox .ruby{
+	margin-left:70px;
+	font-size:8px;
+}
+
+.PI-descriptionbox .pname{
+	font-size:30px;
+	font-style:bold;
+}
+.errorBox{
+	margin:10% 0;
+}
+
+/* ///////////////////////浮きボタン↓////////////////////// */
+.details-submit {
+	height: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: blue;
+	background-color: skyblue;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin-top:10px;
+}
+
+.details-submit:hover {
+	background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+}
+/* ///////////////////////浮きボタン↑////////////////////// */
+/* .clearfix:after { */
+/* 	content: ""; */
+/* 	clear: both; */
+/* 	display: block; */
+/* } */

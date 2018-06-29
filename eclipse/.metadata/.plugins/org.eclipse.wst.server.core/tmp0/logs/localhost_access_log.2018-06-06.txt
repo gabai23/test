@@ -1,0 +1,7 @@
+127.0.0.1 - - [06/Jun/2018:10:03:50 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:03:53 +0900] "GET /miamiburger/ HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:03:53 +0900] "GET /miamiburger/css/animate.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:03:53 +0900] "GET /miamiburger/js/textanimation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:03:53 +0900] "GET /miamiburger/images/startlogo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:03:53 +0900] "GET /miamiburger/images/startbg.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2018:10:04:01 +0900] "GET /miamiburger/StartAction.action HTTP/1.1" 500 463
